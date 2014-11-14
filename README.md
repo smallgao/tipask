@@ -33,6 +33,29 @@ tipask
 - 邮件地址被禁止注册!
 - 用户名已经存在!
 
+##用户登录
+
+
+> URL：api_user/login.html  (http://192.168.1.21:8080/?api_user/login.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- username (string)
+- password (string) 
+
+> 返回结果：
+
+- json 数组用户资料
+
+> 可能返回的错误原因：
+
+- 用户名或密码错误
+
+
 
 
 
