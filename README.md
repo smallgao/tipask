@@ -55,6 +55,31 @@ tipask
 
 - 用户名或密码错误
 
+#获取文章资讯列表
+
+> URL：ca-all.html  (http://192.168.1.21:8080/?ca-all.html)
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+- cid (string)[all,1~N]
+- status (string)[all,1~N]
+- page (int)
+
+
+> 返回结果：
+
+- rownum (int) (总的记录数)
+- curpage (int) (当前分页)
+- pagesize (int) (每页显示文章数)
+- cid (string)[all,1~N] (分类id)
+- status (string)[all,1~N] (状态)
+- sublist (Array) (分类数组) {id(分类id),name(分类名称),articles(分类文章数)}
+- articlelist (Array) (文章数组){id(文档id),cid(分类id),title(文档名称),category_name(分类名),format_time(文档发布时间)}
+
 
 
 
