@@ -57,7 +57,7 @@ tipask
 
 #获取文章资讯列表
 
-> URL：ca-all.html  (http://192.168.1.21:8080/?ca-all.html)
+> URL：api_ca-{cid}/{status}/{page}.html  (http://192.168.1.21:8080/?api_ca-all/all/1.html)
 
 > HTTP请求方式
 
@@ -65,9 +65,9 @@ tipask
 
 > 请求参数：
 
-- cid (string)[all,1~N]
-- status (string)[all,1~N]
-- page (int)
+- cid (string)[all,1~N](必填)
+- status (string)[all,1~N](选填)
+- page (int)(选填)
 
 
 > 返回结果：
