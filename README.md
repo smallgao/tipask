@@ -79,7 +79,7 @@ tipask
 - status (string){all,1~N} (状态)
 - sublist (Array) (分类数组) {id(分类id),name(分类名称),articles(分类文章数)}
 - articlelist (Array) (文章数组){id(文档id),cid(分类id),title(文档名称),category_name(分类名),format_time(文档发布时间)}
-- 
+
 
 #获取文章资讯文章
 
