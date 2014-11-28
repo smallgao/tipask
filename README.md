@@ -4,7 +4,7 @@ tipask
 
 ##用户注册
 
-> URL：api_user/register.html  (http://192.168.1.21:8080/?api_user/register.html)
+> URL：api_user/register.html  (http://192.168.1.21/?api_user/register.html)
 
 > HTTP请求方式
 
@@ -36,7 +36,7 @@ tipask
 ##用户登录
 
 
-> URL：api_user/login.html  (http://192.168.1.21:8080/?api_user/login.html)
+> URL：api_user/login.html  (http://192.168.1.21/?api_user/login.html)
 
 > HTTP请求方式
 
@@ -57,7 +57,7 @@ tipask
 
 #获取文章资讯列表
 
-> URL：api_ca-{cid}/{status}/{page}.html  (http://192.168.1.21:8080/?api_ca-all/all/1.html)
+> URL：api_ca-{cid}/{status}/{page}.html  (http://192.168.1.21/?api_ca-all/all/1.html)
 
 > HTTP请求方式
 
