@@ -1,0 +1,17 @@
+##上传图片
+
+> URL：question/answer.html  (http://192.168.1.21/?question/answer.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie (必填,用户登陆后的cookie)
+- upfile (图片)(必填)
+
+
+> 返回结果：
+
+- 图片地址(string)
