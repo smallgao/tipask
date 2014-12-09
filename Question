@@ -28,7 +28,7 @@ tipask
 - question (Array) (问题数组){id(问题id),cid(分类id),title(问题名称),category_name(分类名),format_time(问题发布时间)}
 
 
-##获取文章资讯文章
+##获取问题详细内容
 
 > URL：api_q-{qid}.html  (http://192.168.1.21/?api_q-1.html)
 
