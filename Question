@@ -48,8 +48,26 @@ tipask
 - 回复 (Array) (回复数组)
 
 
+##回答问题
+
+> URL：question/answer.html  (http://192.168.1.21/?question/answer.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie (必填,用户登陆后的cookie)
+- qid (int){1~N}(必填)
+- title(string)(必填)
+- content(string)(必填)
 
 
+> 返回结果：
+
+-  1 发布成功
+- -1 发布失败
 
 
 
