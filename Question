@@ -48,9 +48,33 @@ tipask
 - 回复 (Array) (回复数组)
 
 
+
+
+##发布问题
+
+> URL：api_question/add.html  (http://192.168.1.21/?api_question/add.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie (必填,用户登陆后的cookie)
+- askfromuid (int){1~N}(选择填)-----被提问者uid
+- title(string)(必填)-----问题标题
+- description(string)(必填)-----详细内容
+- cid1（int）（必填）-----分类id
+
+
+> 返回结果：
+
+-  1 发布成功--并返回qid（问题id）
+- -1 发布失败
+
 ##回答问题
 
-> URL：question/answer.html  (http://192.168.1.21/?question/answer.html)
+> URL：api_question/answer.html  (http://192.168.1.21/?api_question/answer.html)
 
 > HTTP请求方式
 
