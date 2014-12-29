@@ -102,6 +102,24 @@ tipask
 - 邮件格式不正确或已被占用!
 
 
+
+##编辑头像
+
+
+> URL：api_user/editimg.html  (http://192.168.1.21/?api_user/editimg.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- userimage (file)
+
+> 返回结果：
+
+- 1 上传照片成功
+
 ##用户登录
 
 
