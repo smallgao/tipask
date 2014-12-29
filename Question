@@ -134,3 +134,19 @@ tipask
 -  1 修改回答成功！
 -  1 修改回答成功！为了确保问答的质量，我们会对您的回答内容进行审核。请耐心等待......
 
+###采纳答案
+
+> URL：api_question/adopt.html  (http://192.168.1.21/?api_question/adopt.html)
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie (必填,用户登陆后的cookie)
+- qid (int){1~N}(必填) 问题ID
+- aid (int){1~N}(必填) 回答ID
+
+> 返回结果：
+
+-  1 采纳答案成功！
