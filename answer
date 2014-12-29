@@ -1,0 +1,26 @@
+#回答相关接口
+
+##继续回答
+
+> URL：api_c-{cid}/{status}/{page}.html  (http://192.168.1.21/?api_c-all/all/1.html)
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+- cid (string){all,1~N}(必填)
+- status (string){all,1~N}(选填)
+- page (int)(选填)
+
+
+> 返回结果：
+
+- rownum (int) (总的记录数)
+- curpage (int) (当前分页)
+- pagesize (int) (每页显示文章数)
+- cid (string){all,1~N} (分类id)
+- status (string){all,1~N} (状态)
+- sublist (Array) (分类数组) {id(分类id),name(分类名称),articles(分类问题数)}
+- question (Array) (问题数组){id(问题id),cid(分类id),title(问题名称),category_name(分类名),format_time(问题发布时间)}
