@@ -106,15 +106,17 @@ tipask
 ##编辑头像
 
 
-> URL：api_user/editimg.html  (http://192.168.1.21/?api_user/editimg.html)
+> URL：api_user/editimg/{uid}.html  (http://192.168.1.21/?api_user/editimg/{uid}.html)
 
 > HTTP请求方式
 
-- POST
+- get
 
 > 请求参数：
 
 - userimage (file)
+- uid (int)
+- cookie
 
 > 返回结果：
 
