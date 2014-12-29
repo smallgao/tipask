@@ -55,3 +55,71 @@ tipask
 
 - 用户名或密码错误
 
+
+
+##编辑前获取用户信息
+> URL：api_user/profile.html  (http://192.168.1.21/?api_user/profile.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie
+
+
+> 返回结果：
+
+- json 数组用户资料
+
+
+##编辑用户
+
+> URL：api_user/profile.html  (http://192.168.1.21/?api_user/profile.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- submit (string)
+- gender(int)  1=>男,0=>女
+- phone(string) 电话
+- qq(string) qq
+- nickname(string) 昵称
+- provinceid(int)(省份ID)
+- cityid(int)(城市ID)
+- job(string) 职位
+- introduction(string) 公司
+- signature(string) 简介
+> 返回结果：
+- 编辑成功
+
+> 可能返回的错误原因：
+
+- 邮件格式不正确或已被占用!
+
+
+##用户登录
+
+
+> URL：api_user/login.html  (http://192.168.1.21/?api_user/login.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- username (string)
+- password (string) 
+
+> 返回结果：
+
+- json 数组用户资料
+
+> 可能返回的错误原因：
+
+- 用户名或密码错误
