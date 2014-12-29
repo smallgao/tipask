@@ -95,4 +95,42 @@ tipask
 - -1 发布失败
 
 
+##获取单个回答
+
+> URL：api_question/editanswer.html  (http://192.168.1.21/?api_question/editanswer.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie (必填,用户登陆后的cookie)
+- aid (int){1~N}(必填)
+
+> 返回结果：
+
+-  1 回答数组(json)
+- -1 回答不存在或已被删除！
+
+
+##编辑回答
+
+> URL：api_question/editanswer.html  (http://192.168.1.21/?api_question/editanswer.html)
+
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- submit
+- cookie (必填,用户登陆后的cookie)
+- aid (int){1~N}(必填)
+- content(string)(必填)
+
+> 返回结果：
+
+-  1 修改回答成功！
+-  1 修改回答成功！为了确保问答的质量，我们会对您的回答内容进行审核。请耐心等待......
 
