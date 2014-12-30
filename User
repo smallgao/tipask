@@ -110,7 +110,7 @@ tipask
 
 > HTTP请求方式
 
-- get
+- POST
 
 > 请求参数：
 
