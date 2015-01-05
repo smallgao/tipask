@@ -150,3 +150,21 @@ tipask
 > 返回结果：
 
 -  1 采纳答案成功！
+
+
+
+###关注问题
+
+> URL：api_question/attentto.html  (http://192.168.1.21/?api_question/attentto.html)
+> HTTP请求方式
+
+- POST
+
+> 请求参数：
+
+- cookie (必填,用户登陆后的cookie)
+- qid (int){1~N}(必填) 问题ID
+
+> 返回结果：
+
+-  1 关注成功！
