@@ -166,6 +166,6 @@ tipask
 - curpage (int) (当前分页)
 - pagesize (int) (每页显示文章数)
 - status (int) (状态)
-- answerlist (Array) (回答数组){qid(问题id),title(问题名称),content(回答的内容),format_time(问题发布时间)}
+- answerlist (Array) (回答数组){qid(问题id),title(问题名称),content(回答的内容),format_time(回答时间)}
 
 
