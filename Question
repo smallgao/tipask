@@ -47,6 +47,7 @@ tipask
 - 问题 (Array) ($question)
 - 回复 (Array) ($answerlist)
 - 最佳答案 (Array) ($bestanswer)
+- 是否关注(int) ($is_followed)
 - status 状态说明 //0、未审核 1、待解决、2、已解决 4、悬赏的 9、 已关闭问题
 
 
