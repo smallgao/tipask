@@ -169,3 +169,27 @@ tipask
 - answerlist (Array) (回答数组){qid(问题id),title(问题名称),content(回答的内容),format_time(回答时间)}
 
 
+##我的提问列表
+
+
+> URL：api_user/ask/{status}/{curpage}.html  (http://192.168.1.21/?api_user/ask/{status}/{curpage}.html)
+
+> HTTP请求方式
+
+- GET
+
+> 请求参数：
+
+- status 状态说明 //0、未审核 1、待解决、2、已解决 4、悬赏的 9、 已关闭问题 
+- curpage (int)
+- cookie
+
+> 返回结果：
+
+- rownum (int) (总的记录数)
+- curpage (int) (当前分页)
+- pagesize (int) (每页显示文章数)
+- status (int) (状态)
+- question (Array) (问题数组){id(问题id),cid(分类id),title(问题名称),category_name(分类名),format_time(问题发布时间)}
+
+
